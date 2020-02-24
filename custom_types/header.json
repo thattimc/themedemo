@@ -1,0 +1,126 @@
+{
+  "Main" : {
+    "logo_light" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : { },
+        "thumbnails" : [ ],
+        "label" : "Logo Light"
+      }
+    },
+    "logo_dark" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : { },
+        "thumbnails" : [ ],
+        "label" : "Logo Dark"
+      }
+    },
+    "enable_locale" : {
+      "type" : "Boolean",
+      "config" : {
+        "placeholder_false" : "No",
+        "placeholder_true" : "Yes",
+        "default_value" : false,
+        "label" : "Enable Locale"
+      }
+    },
+    "enable_color_mode" : {
+      "type" : "Boolean",
+      "config" : {
+        "placeholder_false" : "No",
+        "placeholder_true" : "Yes",
+        "default_value" : false,
+        "label" : "Enable Color Mode"
+      }
+    },
+    "body" : {
+      "type" : "Slices",
+      "fieldset" : "Slice zone",
+      "config" : {
+        "labels" : {
+          "nav_item" : [ ]
+        },
+        "choices" : {
+          "nav_item" : {
+            "type" : "Slice",
+            "fieldset" : "Nav Item",
+            "description" : "Nav Item with sub links",
+            "icon" : "insert_link",
+            "display" : "list",
+            "non-repeat" : {
+              "label" : {
+                "type" : "Text",
+                "config" : {
+                  "label" : "Label",
+                  "placeholder" : "Label..."
+                }
+              },
+              "show_on_desktop" : {
+                "type" : "Boolean",
+                "config" : {
+                  "placeholder_false" : "No",
+                  "placeholder_true" : "Yes",
+                  "default_value" : false,
+                  "label" : "Show On Desktop"
+                }
+              },
+              "show_on_mobile" : {
+                "type" : "Boolean",
+                "config" : {
+                  "placeholder_false" : "No",
+                  "placeholder_true" : "Yes",
+                  "default_value" : false,
+                  "label" : "Show On Mobile"
+                }
+              },
+              "show_sub_menu_on_desktop" : {
+                "type" : "Boolean",
+                "config" : {
+                  "placeholder_false" : "No",
+                  "placeholder_true" : "Yes",
+                  "default_value" : false,
+                  "label" : "Show Sub Menu On Desktop"
+                }
+              },
+              "show_on_footer" : {
+                "type" : "Boolean",
+                "config" : {
+                  "placeholder_false" : "No",
+                  "placeholder_true" : "Yes",
+                  "default_value" : false,
+                  "label" : "Show On Footer"
+                }
+              }
+            },
+            "repeat" : {
+              "sub_nav_label" : {
+                "type" : "Text",
+                "config" : {
+                  "label" : "Sub Nav Label",
+                  "placeholder" : "Sub Nav Label..."
+                }
+              },
+              "sub_nav_link" : {
+                "type" : "Link",
+                "config" : {
+                  "label" : "Sub Nav Link",
+                  "placeholder" : "Sub Nav Link..."
+                }
+              },
+              "is_cta" : {
+                "type" : "Boolean",
+                "config" : {
+                  "placeholder_false" : "No",
+                  "placeholder_true" : "Yes",
+                  "default_value" : false,
+                  "label" : "Is CTA"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "Main" : {
+    "logo_light" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : { },
+        "thumbnails" : [ ],
+        "label" : "Logo Light"
+      }
+    },
+    "logo_dark" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : { },
+        "thumbnails" : [ ],
+        "label" : "Logo Dark"
+      }
+    },
+    "tagline" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "Tagline",
+        "placeholder" : "Tagline..."
+      }
+    },
+    "copyright" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "Copyright",
+        "placeholder" : "Copyright..."
+      }
+    },
+    "body" : {
+      "type" : "Slices",
+      "fieldset" : "Slice zone",
+      "config" : {
+        "labels" : {
+          "social_media" : [ ]
+        },
+        "choices" : {
+          "social_media" : {
+            "type" : "Slice",
+            "fieldset" : "Social Media",
+            "description" : "Social media icons with links",
+            "icon" : "face",
+            "display" : "list",
+            "non-repeat" : { },
+            "repeat" : {
+              "icon_light" : {
+                "type" : "Image",
+                "config" : {
+                  "constraint" : { },
+                  "thumbnails" : [ ],
+                  "label" : "Icon Light"
+                }
+              },
+              "icon_dark" : {
+                "type" : "Image",
+                "config" : {
+                  "constraint" : { },
+                  "thumbnails" : [ ],
+                  "label" : "Icon Dark"
+                }
+              },
+              "link" : {
+                "type" : "Link",
+                "config" : {
+                  "label" : "Link",
+                  "placeholder" : "Link..."
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

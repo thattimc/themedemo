@@ -1,0 +1,26 @@
+[
+  {
+    "id": "homepage",
+    "name": "Homepage",
+    "repeatable": false,
+    "value": "homepage.json"
+  },
+  {
+    "id": "announcement_bar",
+    "name": "Announcement Bar",
+    "repeatable": false,
+    "value": "announcement_bar.json"
+  },
+  {
+    "id": "header",
+    "name": "Header",
+    "repeatable": false,
+    "value": "header.json"
+  },
+  {
+    "id": "footer",
+    "name": "Footer",
+    "repeatable": false,
+    "value": "footer.json"
+  } 
+]
